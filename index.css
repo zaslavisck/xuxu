@@ -1,0 +1,158 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+nav, .amor{
+    background-color: black;
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amor{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav p{
+    color: white;
+    font-size: 65px;
+    font-family: 'Qwitcher Grypen', cursive;
+}
+
+.amor p{
+    color: white;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.amor img{
+    width: 25%;
+}
+
+main{
+    width: 100%;
+}
+
+main .divzao{
+    width: 100%;
+    height: 550px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+    
+}
+
+main div#um{
+    background-color: rgb(148, 77, 144);
+
+    justify-content: space-evenly;
+}
+
+main div#dois{
+    background-color: rgb(5, 107, 107);
+
+    justify-content: space-evenly;
+}
+
+main div#tres{
+    background-color: rgb(196, 16, 16);
+
+    justify-content: space-evenly;
+}
+
+main div#quatro{
+    background-color: rgb(148, 77, 144);
+
+    justify-content: space-evenly;
+}
+
+main div#cinco{
+    background-color: rgb(5, 107, 107);
+
+    justify-content: space-evenly;
+}
+
+main div#seis{
+    background-color: rgb(196, 16, 16);
+
+    justify-content: space-evenly;
+}
+
+main div#sete{
+    background-color: rgb(148, 77, 144);
+
+    justify-content: space-evenly;
+}
+
+main div#oito{
+    justify-content: center;
+}
+
+main div#oito div{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+main .divzao div{
+    min-width: 100px;
+    width: 35%;
+    height: 70%;
+}
+
+main h3{
+    font-size: 30px;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main p{
+    font-size: 25px;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+main #oito p.p1{
+    text-align: end;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.amor img{
+    width: auto;
+    height: auto;
+    object-fit: fill;
+}
+
+main img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+footer{
+    width: 100%;
+
+    text-align: center;
+
+    font-size: 45px;
+    font-family: 'Qwitcher Grypen', cursive;
+}
+
+@media only screen and (max-width: 1080px) {
+
+}
